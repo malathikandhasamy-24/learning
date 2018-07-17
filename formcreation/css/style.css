@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Days+One|Ubuntu:400,500,700');
+h3{
+	font-family: 'Days One', sans-serif;
+    margin-top: 0px;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #ECF0F1;
+    margin: 0px;
+}
+.container{
+	width: 1170px;
+	margin: auto;
+}
+.method{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 100%;
+}
+.content.method{
+	
+	text-align: center;
+}
+.content{
+	margin-left: 25%;
+	/*background-color: #D2D7D3;*/
+}
+.method .size{
+	margin: 0px 0px 0px 75px;
+}
+.method .nm{
+	width: 108px;
+	display: inline-block;
+}
+.submit-button button,.submit-button input{
+	border-radius: 50%;
+	text-align: center;
+	background-color: #f1b200;
+    color: #fefefe;
+    border-radius: 0px;
+    padding: 15px 30px 15px 30px;
+    font-weight: 700;
+
+}
+.method .choose{
+	padding-right: 65px;
+}
+textarea{
+	width: 300px;
+	height: 7em;
+}
+/*button{
+	background-color: #f1b200;
+    color: #fefefe;
+    border-radius: 0px;
+    padding: 15px 30px 15px 30px;
+    font-weight: 700;
+}*/
+button:hover{
+    color: #feffff;
+}
+.method span{
+	color:#FF0000;
+}
+@media screen and (max-width:768px){
+.our-works .news-detail{
+    margin-bottom: 30px;
+   
+    }
+}
+@media screen and (max-width:768px){
+    .services .icon-details{
+	margin-bottom: 30px;
+}
+}

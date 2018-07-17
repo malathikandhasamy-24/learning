@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> FORM CREATION</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<body>
+	<div class="container">
+		<form class="content" autocomplete="off" onsubmit=" return emailValitation()" name="myform">
+			<div class="method">
+				<label class="nm"> Name </label> 
+				<input type="text" name="name" class="size" id="mytext" onKeyPress="return ValidateAlpha(event);" >
+				<span id="txt"></span>
+			</div>
+			<div class="method">
+				<label class="nm">Email</label>
+				<input type="text" name="email" class="size" onKeyPress="return EmailAddress(event);" >
+				<span id="txt1"></span>
+			</div>
+			<div class="method">
+				<label class="nm">Phonenumber</label>
+				<input type="text" name="number" class="size" maxlength="10" onKeyPress="return Phonenum(event);">
+				<span id="txt2"></span>
+			</div>
+			<div class="method">		
+				<label class="nm">Address</label>
+				 <textarea name="address" type="text" class="size">
+				</textarea>	
+			</div>
+			<div class="method">	
+				<label class="choose nm">Gender</label>
+				<input type="radio" name="gender" id = "redmale" onKeyPress="this.checked; return reset_msg();"/>Male
+				<input type="radio" name="gender" id = "redfemale " onKeyPress="return reset_msg();"/>Female
+				<span id="txt3"></span>
+			</div>
+			<div class="method">
+				<label class="nm">Country</label>
+				<select name="country" class="size">
+					<option value="Select your country"></option>
+					<option value="india">INDIA</option>
+					<option value="usa">USA</option>
+					<option value="argentina">ARGENTINA</option>
+					<option value="astralia">ASTRALIA</option>
+					<option value="norway">NORWAY</option>
+				</select>
+			</div>
+			<div class="submit-button">
+				<input type="submit" value="submit">
+				<button type="reset">Reset</button>
+			</div>
+	</form>	
+	</div>
+	<script type="text/javascript" src="js/script1.js"></script>
+</body>
+</html>
