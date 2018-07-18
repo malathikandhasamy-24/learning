@@ -1,0 +1,17 @@
+$(document).ready(function()
+{
+	$('.second-half').hide();
+	$(".form1-button").click(function(){
+		$('.second-half').show();
+		$('#demo1').val($('#demo').val());
+		$('#butt-1').click(function(){
+			$('#demo1').css("color","red");
+		});
+		$('#butt-2').click(function(){
+			$('#demo1').css("color","blue");
+		});
+		$('#butt-3').click(function(){
+			$('#demo1').css("color","yellow");
+		});
+	});
+});

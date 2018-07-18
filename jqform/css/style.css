@@ -1,0 +1,35 @@
+.container{
+	width: 1170px;
+	margin: auto;
+}
+.txt-type{
+	padding:10px 25px 10px 25px;
+	margin-bottom: 40px;
+	margin-top: 30px;
+	text-align: center;
+	border-radius: 5px;
+	background-color: #ecf0f1;
+}
+button{
+	padding: 10px 15px 10px 15px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	border:none;
+	border-radius:5px;
+	background-color: #3B3B98;
+	color: #ffff;
+}
+.first-half{
+	width: 50%;
+	display: inline-block;
+	text-align: center;
+}
+.second-half{
+margin: auto;
+text-align: center;
+display: inline-block;
+}
+body{
+	background-color: #9AECDB;
+}
